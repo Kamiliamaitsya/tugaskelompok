@@ -11,7 +11,7 @@
     <div class="container mt-5">
         <h1 class="mb-4">Daftar Member</h1>
 
-        {{-- Tombol untuk menambah anggota baru --}}
+        {{-- Tombol untuk menambah anggota baru! --}}
         <a href="{{ route('members.create') }}" class="btn btn-primary mb-3">Tambah Member</a>
 
         {{-- Cek apakah ada data members --}}
